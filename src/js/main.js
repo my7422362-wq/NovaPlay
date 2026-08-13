@@ -15,7 +15,7 @@ import { initEmailJSForm } from "./emailjs-handler.js";
 /* ─── Load Navbar Component ─── */
 async function loadNavbar() {
   try {
-    const response = await fetch("/src/components/navbar.html");
+    const response = await fetch("/components/navbar.html");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const html = await response.text();
 
@@ -221,7 +221,7 @@ function initNavbar() {
 /* ─── Load Hero Component ─── */
 async function loadHero() {
   try {
-    const response = await fetch("/src/components/hero.html");
+    const response = await fetch("/components/hero.html");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const html = await response.text();
 
@@ -306,7 +306,7 @@ function initHeroSwiper() {
 /* ─── Load Featured Games Component ─── */
 async function loadFeaturedGames() {
   try {
-    const response = await fetch("/src/components/featured-games.html");
+    const response = await fetch("/components/featured-games.html");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const html = await response.text();
 
@@ -334,7 +334,7 @@ async function loadFeaturedGames() {
 /* ─── Load Game Showcase Component ─── */
 async function loadGameShowcase() {
   try {
-    const response = await fetch("/src/components/game-showcase.html");
+    const response = await fetch("/components/game-showcase.html");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const html = await response.text();
 
@@ -362,7 +362,7 @@ async function loadGameShowcase() {
 /* ─── Load About Component ─── */
 async function loadAbout() {
   try {
-    const response = await fetch("/src/components/about.html");
+    const response = await fetch("/components/about.html");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const html = await response.text();
 
@@ -390,7 +390,7 @@ async function loadAbout() {
 /* ─── Load Categories Component ─── */
 async function loadCategories() {
   try {
-    const response = await fetch("/src/components/categories.html");
+    const response = await fetch("/components/categories.html");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const html = await response.text();
 
@@ -418,7 +418,7 @@ async function loadCategories() {
 /* ─── Load Gallery Component ─── */
 async function loadGallery() {
   try {
-    const response = await fetch("/src/components/gallery.html");
+    const response = await fetch("/components/gallery.html");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const html = await response.text();
     const categories = document.getElementById("categories");
@@ -441,7 +441,7 @@ async function loadGallery() {
 /* ─── Load CTA Component ─── */
 async function loadCta() {
   try {
-    const response = await fetch("/src/components/cta.html");
+    const response = await fetch("/components/cta.html");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const html = await response.text();
 
@@ -469,7 +469,7 @@ async function loadCta() {
 /* ─── Load Contact Component ─── */
 async function loadContact() {
   try {
-    const response = await fetch("/src/components/contact.html");
+    const response = await fetch("/components/contact.html");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const html = await response.text();
 
@@ -500,7 +500,7 @@ async function loadContact() {
 /* ─── Load Footer Component ─── */
 async function loadFooter() {
   try {
-    const response = await fetch("/src/components/footer.html");
+    const response = await fetch("/components/footer.html");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const html = await response.text();
 
